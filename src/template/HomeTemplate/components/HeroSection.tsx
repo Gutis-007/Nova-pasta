@@ -7,7 +7,8 @@ export const HeroSection: React.FC = () => {
     {
       icon: "instagram",
       value: "+2060",
-      label: "Seguidores no Instagram"
+      label: "Seguidores no Instagram",
+      href: 'https://www.instagram.com/ep_nubeep'
     },
     {
       icon: "team",

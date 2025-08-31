@@ -4,6 +4,7 @@ interface CardProps {
   icon: string;
   value: string;
   label: string;
+  href?: string; // Adiciona a propriedade href
 }
 
 interface CardsProps {
@@ -44,7 +45,13 @@ export const Cards: React.FC<CardsProps> = ({ stats }) => {
     <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
       {stats.map((stat, index) => (
         <div key={index} className="bg-white border border-nubeep-blue flex flex-col items-center text-nubeep-blue w-full px-7 py-9 rounded-2xl hover:shadow-lg transition-shadow">
-          {getIcon(stat.icon)}
+          {stat.href ? (
+            <a href={stat.href} target="_blank" rel="noopener noreferrer">
+              {getIcon(stat.icon)}
+            </a>
+          ) : (
+            getIcon(stat.icon)
+          )}
           <div className="text-2xl font-extrabold mt-3">
             {stat.value}
           </div>
