@@ -1,0 +1,2030 @@
+[
+  {
+    "model": "quiz.quiz",
+    "pk": 1,
+    "fields": {
+      "title": "QUIZ NUBEEP - TRANSPORTE E LOGÍSTICA",
+      "description": "Um quiz sobre conceitos de transporte e logística, abrangendo níveis fácil, intermediário e difícil.",
+      "nivel": "I",
+      "time_limit": null
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 1,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual das alternativas abaixo melhor descreve o que é o processo de “Picking” dentro da logística?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 1,
+    "fields": { "question": 1, "text": "É o procedimento utilizado para embalar os produtos antes da expedição.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 2,
+    "fields": { "question": 1, "text": "Refere-se à atividade de separação e coleta dos produtos no estoque para atender a um pedido específico.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 3,
+    "fields": { "question": 1, "text": "Trata-se do transporte de mercadorias entre os diferentes locais de armazenagem.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 4,
+    "fields": { "question": 1, "text": "É o processo de descarregamento de produtos de um caminhão na doca.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 2,
+    "fields": {
+      "quiz": 1,
+      "text": "No contexto da gestão de estoque, o que significa a sigla FIFO, que é frequentemente utilizada para organizar a saída de mercadorias?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 5,
+    "fields": { "question": 2, "text": "Refere-se ao controle de produtos vencidos em primeiro lugar.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 6,
+    "fields": { "question": 2, "text": "Significa “Primeiro a entrar, primeiro a sair”, ou seja, os itens mais antigos, devem sair antes.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 7,
+    "fields": { "question": 2, "text": "Representa “Primeiro a sair, último a entrar”, sem considerar a ordem de entrada dos produtos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 8,
+    "fields": { "question": 2, "text": "Indica que o último item a entrar no estoque deve ser o primeiro a sair", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 3,
+    "fields": {
+      "quiz": 1,
+      "text": "Dentro das práticas sustentáveis adotadas pelas empresas, o que é corretamente definido como logística reversa?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 9,
+    "fields": { "question": 3, "text": "Ações que visam reduzir a emissão de poluentes no transporte de mercadorias.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 10,
+    "fields": { "question": 3, "text": "Sistema de coleta seletiva feito por empresas privadas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 11,
+    "fields": { "question": 3, "text": "Processo no qual produtos, embalagens ou resíduos retornam do consumidor ao fabricante para reaproveitamento, reciclagem ou descarte adequado.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 12,
+    "fields": { "question": 3, "text": "Estratégia para substituir materiais poluentes por alternativas biodegradáveis durante a produção.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 4,
+    "fields": {
+      "quiz": 1,
+      "text": "No contexto da gestão logística e do planejamento de operações, o que se entende pelo termo “Lead Time”?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 13,
+    "fields": { "question": 4, "text": "É o prazo total que compreende todas as etapas entre o momento em que o pedido é realizado pelo cliente até a entrega efetiva do produto no destino final.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 14,
+    "fields": { "question": 4, "text": "Representa o cálculo do peso total da carga transportada em uma remessa específica.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 15,
+    "fields": { "question": 4, "text": "Refere-se exclusivamente à distância percorrida pelo veículo durante a distribuição dos produtos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 16,
+    "fields": { "question": 4, "text": "Consiste no período destinado à escolha e aquisição do tipo de embalagem mais adequado ao transporte da mercadoria.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 5,
+    "fields": {
+      "quiz": 1,
+      "text": "A atividade que administra o transporte de materiais dos fornecedores para a empresa, o descarregamento, o armazenamento das matérias-primas, o retorno de embalagens e os acordos com o sistema de fornecimento é conhecida como:",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 17,
+    "fields": { "question": 5, "text": "Logística de distribuição.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 18,
+    "fields": { "question": 5, "text": "Logística de manufatura.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 19,
+    "fields": { "question": 5, "text": "Logística de abastecimento.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 20,
+    "fields": { "question": 5, "text": "Logística organizacional.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 6,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual das alternativas a seguir apresenta apenas atividades consideradas primárias dentro do processo logístico?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 21,
+    "fields": { "question": 6, "text": "Transporte, Armazenagem e Embalagem.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 22,
+    "fields": { "question": 6, "text": "Processo de Pedidos, Gestão de Estoque e Transporte.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 23,
+    "fields": { "question": 6, "text": "Obtenção, Administração de informações e Manuseio de materiais.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 24,
+    "fields": { "question": 6, "text": "Gestão de estoque, Embalagem e Processamento de pedidos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 7,
+    "fields": {
+      "quiz": 1,
+      "text": "No contexto da cadeia de suprimentos, o que melhor define o conceito de logística integrada?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 25,
+    "fields": { "question": 7, "text": "Aplicação de modais de transporte específico, como o marítimo, para reduzir custos logísticos internacionais.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 26,
+    "fields": { "question": 7, "text": "Processo que se limita exclusivamente a etapa final da entrega ao cliente.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 27,
+    "fields": { "question": 7, "text": "Estratégia que busca a integração e coordenação entre os setores internos da empresa, fornecedores, distribuidores e clientes para otimizar o fluxo de informações e materiais.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 28,
+    "fields": { "question": 7, "text": "Sistema de armazenagem em que cada setor administra seu próprio estoque de forma isolada, sem compartilhamento de dados.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 8,
+    "fields": {
+      "quiz": 1,
+      "text": "Os cincos modais de transporte básico à disposição dos usuários são: hidroviário, ferroviário, rodoviário, aeroviário e dutoviário.",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 29,
+    "fields": { "question": 8, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 30,
+    "fields": { "question": 8, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 9,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual das alternativas abaixo melhor define o significado do termo “logística” dentro do contexto empresarial e da gestão da cadeia de suprimentos?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 31,
+    "fields": { "question": 9, "text": "Um período de alta demanda e vendas intensas em um determinado mercado, que exige planejamento estratégico para atender os clientes.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 32,
+    "fields": { "question": 9, "text": "O processo de planejar, controlar e executar o transporte, movimentação e armazenagem de produtos e informações desde a origem até o consumidor final.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 33,
+    "fields": { "question": 9, "text": "Conjunto de métodos que visam exclusivamente a redução de custos operacionais, sem foco na qualidade do serviço.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 34,
+    "fields": { "question": 9, "text": "A gestão de grandes quantidades de mercadorias estocadas nas lojas para garantir que nunca falte produto para o consumidor.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 10,
+    "fields": {
+      "quiz": 1,
+      "text": "No contexto da área logística, existem diferentes abordagens conforme os objetivos e as etapas da cadeia de suprimentos. Quais são os três principais tipos e logística utilizados nas operações empresariais? [cite: 49, 50]",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 35,
+    "fields": { "question": 10, "text": "Logística Adequada, Integrada e Empresarial.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 36,
+    "fields": { "question": 10, "text": "Logística Empresarial, Adequada e Sustentável.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 37,
+    "fields": { "question": 10, "text": "Logística Reversa, Sustentável e Empresarial.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 38,
+    "fields": { "question": 10, "text": "Logística Reversa, Integrada e Empresarial.", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 11,
+    "fields": {
+      "quiz": 1,
+      "text": "Quais são os modais de transporte mais comuns utilizados na logística?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 39,
+    "fields": { "question": 11, "text": "Modais aeroviarios.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 40,
+    "fields": { "question": 11, "text": "Todas as opções.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 41,
+    "fields": { "question": 11, "text": "Modais dutoviário.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 42,
+    "fields": { "question": 11, "text": "Modais rodoviários, aquáticos e ferroviários.", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 12,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é o principal objetivo da gestão da cadeia de suprimentos dentro da logística moderna?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 43,
+    "fields": { "question": 12, "text": "Garantir que o produto desejado pelo cliente seja entregue no prazo esperado, com eficiência e qualidade.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 44,
+    "fields": { "question": 12, "text": "Focar unicamente na redução dos custos operacionais em todas as etapas do processo logístico.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 45,
+    "fields": { "question": 12, "text": "Maximizar os lucros por meio da eliminação de estoques e da automação de vendas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 46,
+    "fields": { "question": 12, "text": "Garantir que o produto seja entregue no tempo certo, independentemente da demanda ou da qualidade.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 13,
+    "fields": {
+      "quiz": 1,
+      "text": "O transporte rodoviário de cargas é o mais flexível e o mais viável economicamente para cobrir uma região urbana.",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 47,
+    "fields": { "question": 13, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 48,
+    "fields": { "question": 13, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 14,
+    "fields": {
+      "quiz": 1,
+      "text": "Rotas mais flexíveis; Deslocamento rápido em curtas distâncias; Acessibilidade, já que consegue alcançar até mesmo os locais mais afetados; Menor burocracia na hora de emitir a documentação para o transporte; Contratação mais fácil e ágil. O tipo de modal de transporte que pode ser associado às vantagens citadas acima é o: [cite: 69, 70, 71, 72, 73, 74]",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 49,
+    "fields": { "question": 14, "text": "Dutoviário", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 50,
+    "fields": { "question": 14, "text": "Rodoviário", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 51,
+    "fields": { "question": 14, "text": "Aeroviário", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 52,
+    "fields": { "question": 14, "text": "Ferroviário", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 15,
+    "fields": {
+      "quiz": 1,
+      "text": "Considerando as características da infraestrutura logística brasileira, qual é o modal de transporte mais utilizado no país, tanto para cargas quanto para deslocamento de pessoas?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 53,
+    "fields": { "question": 15, "text": "Aeroviário.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 54,
+    "fields": { "question": 15, "text": "Ferroviário.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 55,
+    "fields": { "question": 15, "text": "Dutoviário.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 56,
+    "fields": { "question": 15, "text": "Rodoviário.", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 16,
+    "fields": {
+      "quiz": 1,
+      "text": "Os depósitos de distribuição são espaços em que os produtos são armazenados por longos períodos, com o objetivo de proteger as mercadorias até que sejam solicitadas, sendo reduzido o manuseio.",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 57,
+    "fields": { "question": 16, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 58,
+    "fields": { "question": 16, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 17,
+    "fields": {
+      "quiz": 1,
+      "text": "Em países com dimensões continentais, longas distâncias, diversidade climática e presença de obstáculos naturais como rios, montanhas e florestas, qual é o meio de transporte terrestre mais recomendado para promover a integração nacional e garantir eficiência no deslocamento de cargas e pessoas?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 59,
+    "fields": { "question": 17, "text": "Subterrâneo.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 60,
+    "fields": { "question": 17, "text": "Aéreo.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 61,
+    "fields": { "question": 17, "text": "Rodoviário", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 62,
+    "fields": { "question": 17, "text": "Ferroviário", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 18,
+    "fields": {
+      "quiz": 1,
+      "text": "O estoque se refere ao local físico onde os produtos são guardados, enquanto o armazém representa a quantidade de mercadorias disponíveis para venda ou produção.",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 63,
+    "fields": { "question": 18, "text": "Verdadeiro", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 64,
+    "fields": { "question": 18, "text": "Falso", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 19,
+    "fields": {
+      "quiz": 1,
+      "text": "A logística envolve apenas o transporte de produtos do fornecedor ao cliente final, não englobando o controle de estoque nem o armazenamento.",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 65,
+    "fields": { "question": 19, "text": "Verdadeiro", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 66,
+    "fields": { "question": 19, "text": "Falso", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 20,
+    "fields": {
+      "quiz": 1,
+      "text": "O que é “cross-docking” na logística?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 67,
+    "fields": { "question": 20, "text": "Estocar produtos por longos períodos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 68,
+    "fields": { "question": 20, "text": "Transferir mercadorias diretamente do recebimento para a expedição, sem armazenagem.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 69,
+    "fields": { "question": 20, "text": "Transportar produtos de um país para outro.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 70,
+    "fields": { "question": 20, "text": "Embalar produtos para transporte.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 21,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual destes é um benefício da boa gestão logística?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 71,
+    "fields": { "question": 21, "text": "Aumento do custo operacional.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 72,
+    "fields": { "question": 21, "text": "Redução do tempo de entrega.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 73,
+    "fields": { "question": 21, "text": "Menor qualidade do produto.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 74,
+    "fields": { "question": 21, "text": "Aumento do estoque parado.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 22,
+    "fields": {
+      "quiz": 1,
+      "text": "O que é “frete FOB”?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 75,
+    "fields": { "question": 22, "text": "O vendedor paga o frete até o destino.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 76,
+    "fields": { "question": 22, "text": "O comprador paga o frete a partir do ponto de embarque.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 77,
+    "fields": { "question": 22, "text": "O frete é gratuito.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 78,
+    "fields": { "question": 22, "text": "O frete é pago após a entrega.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 23,
+    "fields": {
+      "quiz": 1,
+      "text": "A logística pode ajudar a:",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 79,
+    "fields": { "question": 23, "text": "Aumentar os custos da empresa.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 80,
+    "fields": { "question": 23, "text": "Diminuir a eficiência da produção.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 81,
+    "fields": { "question": 23, "text": "Melhorar o atendimento ao cliente.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 82,
+    "fields": { "question": 23, "text": "Reduzir a qualidade do produto.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 24,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual das alternativas abaixo NÃO representa uma função típica da logística?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 83,
+    "fields": { "question": 24, "text": "Transporte de mercadorias.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 84,
+    "fields": { "question": 24, "text": "Armazenagem de produtos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 85,
+    "fields": { "question": 24, "text": "Atividades de marketing.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 86,
+    "fields": { "question": 24, "text": "Controle e gestão de estoques.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 25,
+    "fields": {
+      "quiz": 1,
+      "text": "O que significa a estratégia “just in case” na gestão de estoques?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 87,
+    "fields": { "question": 25, "text": "Produzir somente quando houver pedido confirmado.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 88,
+    "fields": { "question": 25, "text": "Manter um estoque de segurança para evitar faltas inesperadas.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 89,
+    "fields": { "question": 25, "text": "Eliminar o estoque sempre que possível.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 90,
+    "fields": { "question": 25, "text": "Vender apenas produtos finalizados, sem manter insumos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 26,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é o impacto dos atrasos no transporte para as empresas?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 91,
+    "fields": { "question": 26, "text": "Aumento da satisfação dos clientes.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 92,
+    "fields": { "question": 26, "text": "Elevação dos custos e prejuízo à reputação da empresa.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 93,
+    "fields": { "question": 26, "text": "Redução dos custos operacionais.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 94,
+    "fields": { "question": 26, "text": "Ausência de impactos relevantes.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 27,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é a vantagem do uso de tecnologia na logística?",
+      "nivel": "F"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 95,
+    "fields": { "question": 27, "text": "Reduz a comunicação entre setores.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 96,
+    "fields": { "question": 27, "text": "Dificulta o controle dos estoques.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 97,
+    "fields": { "question": 27, "text": "Aumenta a chance de erros humanos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 98,
+    "fields": { "question": 27, "text": "Melhora o rastreamento de pedidos e a eficiência.", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 28,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é o principal modal de transporte utilizado pelo Brasil nas operações de comércio exterior?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 99,
+    "fields": { "question": 28, "text": "Rodoviário", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 100,
+    "fields": { "question": 28, "text": "Ferroviário", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 101,
+    "fields": { "question": 28, "text": "Marítimo", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 102,
+    "fields": { "question": 28, "text": "Aéreo", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 29,
+    "fields": {
+      "quiz": 1,
+      "text": "O modal ferroviário é eficiente para o transporte de grandes volumes por longas distâncias, especialmente em países com grandes dimensões territoriais.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 103,
+    "fields": { "question": 29, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 104,
+    "fields": { "question": 29, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 30,
+    "fields": {
+      "quiz": 1,
+      "text": "A inseparabilidade no serviço de transporte significa que o serviço é produzido e consumido ao mesmo tempo, o que não impacta a interação com o cliente.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 105,
+    "fields": { "question": 30, "text": "Verdadeiro", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 106,
+    "fields": { "question": 30, "text": "Falso", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 31,
+    "fields": {
+      "quiz": 1,
+      "text": "A globalização reduziu a necessidade de malhas logísticas complexas, tornando o transporte local a principal solução de movimentação de cargas.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 107,
+    "fields": { "question": 31, "text": "Verdadeiro", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 108,
+    "fields": { "question": 31, "text": "Falso", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 32,
+    "fields": {
+      "quiz": 1,
+      "text": "O transporte é considerado uma atividade logística primária porque movimenta insumos e produtos acabados, coordenando a tarefa logística como um todo.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 109,
+    "fields": { "question": 32, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 110,
+    "fields": { "question": 32, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 33,
+    "fields": {
+      "quiz": 1,
+      "text": "A má conservação das estradas no Brasil prejudica o desempenho do transporte rodoviário, aumentando custos e prazos de entrega.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 111,
+    "fields": { "question": 33, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 112,
+    "fields": { "question": 33, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 34,
+    "fields": {
+      "quiz": 1,
+      "text": "A entrega rápida agrega valor ao cliente, pois disponibiliza o produto no momento desejado e reduz a ansiedade do consumidor.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 113,
+    "fields": { "question": 34, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 114,
+    "fields": { "question": 34, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 35,
+    "fields": {
+      "quiz": 1,
+      "text": "No contexto da logística de transportes, diversos fatores influenciam a determinação do valor do frete. Entre eles, qual é considerado o principal determinante, devido ao seu impacto direto nos custos variáveis, como manutenção da frota, combustível e mão de obra? [cite: 162, 163]",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 115,
+    "fields": { "question": 35, "text": "O volume da carga.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 116,
+    "fields": { "question": 35, "text": "A densidade do produto.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 117,
+    "fields": { "question": 35, "text": "A distância a ser percorrida.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 118,
+    "fields": { "question": 35, "text": "O tipo de acondicionamento da mercadoria.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 119,
+    "fields": { "question": 35, "text": "O manuseio dos materiais.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 36,
+    "fields": {
+      "quiz": 1,
+      "text": "O transporte pode impactar diretamente o custo de produção de um produto, ao reduzir os custos com pedidos de matérias-primas e entregas.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 120,
+    "fields": { "question": 36, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 121,
+    "fields": { "question": 36, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 37,
+    "fields": {
+      "quiz": 1,
+      "text": "A logística reversa enfrenta dificuldades de rastreabilidade devido à falta de padronização dos itens devolvidos e baixa visibilidade do processo.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 122,
+    "fields": { "question": 37, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 123,
+    "fields": { "question": 37, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 38,
+    "fields": {
+      "quiz": 1,
+      "text": "A estrutura de estoques pode colaborar na redução de custos com transporte, permitindo melhor consolidação de cargas e negociação de frete.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 124,
+    "fields": { "question": 38, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 125,
+    "fields": { "question": 38, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 39,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual documento acompanha a carga no transporte aéreo internacional?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 126,
+    "fields": { "question": 39, "text": "Bill of Lading (BL)", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 127,
+    "fields": { "question": 39, "text": "Invoice", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 128,
+    "fields": { "question": 39, "text": "Air Way Bill (AWB)", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 129,
+    "fields": { "question": 39, "text": "Packing List", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 40,
+    "fields": {
+      "quiz": 1,
+      "text": "O modal rodoviário, apesar de flexível, pode sofrer atrasos significativos no Mercosul devido ao tempo de espera nas aduanas.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 130,
+    "fields": { "question": 40, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 131,
+    "fields": { "question": 40, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 41,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é uma vantagem marcante do transporte aéreo em comparação com outros modais?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 132,
+    "fields": { "question": 41, "text": "Menor custo operacional", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 133,
+    "fields": { "question": 41, "text": "Transporte de grandes volumes de commodities", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 134,
+    "fields": { "question": 41, "text": "Menor avaria e maior velocidade", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 135,
+    "fields": { "question": 41, "text": "Ideal apenas para curtas distâncias", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 42,
+    "fields": {
+      "quiz": 1,
+      "text": "A perecibilidade do serviço de transporte está relacionada ao fato de que não pode ser estocado, dificultando a gestão da oferta e demanda.",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 136,
+    "fields": { "question": 42, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 137,
+    "fields": { "question": 42, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 43,
+    "fields": {
+      "quiz": 1,
+      "text": "Como se caracteriza a flexibilidade do transporte rodoviário?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 138,
+    "fields": { "question": 43, "text": "Capacidade de grandes volumes", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 139,
+    "fields": { "question": 43, "text": "Menor emissão de poluentes", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 140,
+    "fields": { "question": 43, "text": "Agilidade em longas distâncias", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 141,
+    "fields": { "question": 43, "text": "Capacidade de alcançar muitos pontos diretamente", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 44,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é uma das principais dificuldades associadas ao transporte rodoviário no Brasil?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 142,
+    "fields": { "question": 44, "text": "Alta tecnologia dos caminhões", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 143,
+    "fields": { "question": 44, "text": "Escassez de mão de obra", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 144,
+    "fields": { "question": 44, "text": "Má conservação das estradas", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 145,
+    "fields": { "question": 44, "text": "Baixo volume de cargas", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 45,
+    "fields": {
+      "quiz": 1,
+      "text": "Como o transporte agrega valor ao cliente com entregas rápidas?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 146,
+    "fields": { "question": 45, "text": "Aumentando os custos de armazenagem do cliente", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 147,
+    "fields": { "question": 45, "text": "Reduzindo a ansiedade e atendendo ao momento desejado", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 148,
+    "fields": { "question": 45, "text": "Diminuindo a frequência de entrega", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 149,
+    "fields": { "question": 45, "text": "Tornando o processo de compras mais complexo", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 46,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é uma característica de custo importante do modal ferroviário?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 150,
+    "fields": { "question": 46, "text": "Mais caro por conta da infraestrutura", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 151,
+    "fields": { "question": 46, "text": "Mais rápido para entregas porta a porta", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 152,
+    "fields": { "question": 46, "text": "Mais barato e com maior capacidade", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 153,
+    "fields": { "question": 46, "text": "Exige mais investimento em mão de obra", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 47,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é o papel dos Incoterms no comércio internacional?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 154,
+    "fields": { "question": 47, "text": "Definir a embalagem da carga", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 155,
+    "fields": { "question": 47, "text": "Estabelecer o preço da mercadoria", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 156,
+    "fields": { "question": 47, "text": "Determinar responsabilidades no transporte", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 157,
+    "fields": { "question": 47, "text": "Regular a burocracia aduaneira", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 48,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é o principal responsável pela manutenção da infraestrutura logística das vias?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 158,
+    "fields": { "question": 48, "text": "Grandes empresas de transporte", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 159,
+    "fields": { "question": 48, "text": "Poder público", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 160,
+    "fields": { "question": 48, "text": "Empresários em consórcios", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 161,
+    "fields": { "question": 48, "text": "Empresas exportadoras", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 49,
+    "fields": {
+      "quiz": 1,
+      "text": "A logística reversa enfrenta desafios únicos. Qual das alternativas a seguir representa corretamente um dos principais fatores que dificultam esse processo?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 162,
+    "fields": { "question": 49, "text": "Alta previsibilidade dos fluxos", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 163,
+    "fields": { "question": 49, "text": "Padronização total das embalagens", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 164,
+    "fields": { "question": 49, "text": "Diversidade dos produtos e baixa visibilidade", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 165,
+    "fields": { "question": 49, "text": "Alto valor agregado dos produtos", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 50,
+    "fields": {
+      "quiz": 1,
+      "text": "Sobre o custo do transporte na logística empresarial:",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 166,
+    "fields": { "question": 50, "text": "Cerca de 1% a 3%", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 167,
+    "fields": { "question": 50, "text": "Cerca de 20% a 25%", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 168,
+    "fields": { "question": 50, "text": "Cerca de 45% a 50%", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 169,
+    "fields": { "question": 50, "text": "Cerca de 35% a 45%", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 51,
+    "fields": {
+      "quiz": 1,
+      "text": "Quais processos estão incluídos na atividade de transporte como parte da logística primária?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 170,
+    "fields": { "question": 51, "text": "Políticas de estocagem", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 171,
+    "fields": { "question": 51, "text": "Seleção do modal, roteirização e consolidação de fretes", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 172,
+    "fields": { "question": 51, "text": "Interface dos estoques", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 173,
+    "fields": { "question": 51, "text": "Expedição e garantia de qualidade", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 52,
+    "fields": {
+      "quiz": 1,
+      "text": "Qual é uma das principais razões históricas para a confusão entre logística e transporte?",
+      "nivel": "I"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 174,
+    "fields": { "question": 52, "text": "O transporte é a única atividade logística que exige o uso de meios diversos", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 175,
+    "fields": { "question": 52, "text": "A logística é sinônimo de transporte segundo definições recentes", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 176,
+    "fields": { "question": 52, "text": "Transportadoras passaram a adotar “logística” no nome por ser mais comercial", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 177,
+    "fields": { "question": 52, "text": "O transporte sempre foi o mais eficiente para reduzir custos operacionais", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 53,
+    "fields": {
+      "quiz": 1,
+      "text": "“A implementação de um sistema de gerenciamento de armazém (WMS) pode melhorar a eficiência do picking e do packing de mercadorias em até 15%”.",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 178,
+    "fields": { "question": 53, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 179,
+    "fields": { "question": 53, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 54,
+    "fields": {
+      "quiz": 1,
+      "text": "“A tecnologia de blockchain pode ser usada para melhorar a segurança e a transparência da cadeia de suprimentos”.",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 180,
+    "fields": { "question": 54, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 181,
+    "fields": { "question": 54, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 55,
+    "fields": {
+      "quiz": 1,
+      "text": "O método 'Vehicle Routing Problem' (VRP) com restrições de capacidade e janelas de tempo (VRPTW) é fundamental para:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 182,
+    "fields": { "question": 55, "text": "Calcular o custo total de transporte.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 183,
+    "fields": { "question": 55, "text": "Determinar as rotas de veículos otimizadas que atendem a restrições de capacidade e horários de atendimento.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 184,
+    "fields": { "question": 55, "text": "Identificar os pontos de armazenamento intermediários.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 185,
+    "fields": { "question": 55, "text": "Definir os níveis de estoque mínimo em depósitos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 56,
+    "fields": {
+      "quiz": 1,
+      "text": "Na avaliação de riscos logísticos, a metodologia FMEA (Failure Mode and Effects Analysis) é usada para:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 186,
+    "fields": { "question": 56, "text": "Medir a eficiência dos transportes intermodais.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 187,
+    "fields": { "question": 56, "text": "Identificar e priorizar possíveis falhas nos processos para reduzir riscos operacionais.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 188,
+    "fields": { "question": 56, "text": "Avaliar os custos fixos de armazenagem.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 189,
+    "fields": { "question": 56, "text": "Planejar o fluxo de produção.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 57,
+    "fields": {
+      "quiz": 1,
+      "text": "No contexto de transportes, a teoria de filas (queueing theory) é aplicada para:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 190,
+    "fields": { "question": 57, "text": "Prever o tempo de espera e otimizar a capacidade dos terminais de carga.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 191,
+    "fields": { "question": 57, "text": "Calcular o custo do frete.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 192,
+    "fields": { "question": 57, "text": "Controlar os níveis de estoque em armazéns.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 193,
+    "fields": { "question": 57, "text": "Programar a manutenção da frota de veículos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 58,
+    "fields": {
+      "quiz": 1,
+      "text": "Em logística internacional, o 'Incoterm CIF' (Cost, Insurance and Freight) implica que:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 194,
+    "fields": { "question": 58, "text": "O vendedor é responsável apenas pela entrega no porto de destino.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 195,
+    "fields": { "question": 58, "text": "O comprador deve arcar com o custo do seguro da carga.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 196,
+    "fields": { "question": 58, "text": "O vendedor paga os custos e seguro até o porto de destino, mas o risco é transferido ao comprador no porto de embarque.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 197,
+    "fields": { "question": 58, "text": "O comprador é responsável por toda a logística até o destino final.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 59,
+    "fields": {
+      "quiz": 1,
+      "text": "A técnica de 'Hub and Spoke' em logística é utilizada para:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 198,
+    "fields": { "question": 59, "text": "Diminuir a distância média de transporte ao centralizar operações em hubs estratégicos.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 199,
+    "fields": { "question": 59, "text": "Aumentar o número de rotas diretas para clientes finais.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 200,
+    "fields": { "question": 59, "text": "Eliminar pontos de transbordo para acelerar entregas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 201,
+    "fields": { "question": 59, "text": "Priorizar transporte rodoviário em detrimento do ferroviário.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 60,
+    "fields": {
+      "quiz": 1,
+      "text": "“A otimização de rotas de transporte pode ser realizada usando algoritmos de Dijkstra ou Bellman-Ford”. (Nota: O arquivo original mencionava Bellman-Toyota, que foi corrigido para o mais conhecido Bellman-Ford)",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 202,
+    "fields": { "question": 60, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 203,
+    "fields": { "question": 60, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 61,
+    "fields": {
+      "quiz": 1,
+      "text": "O modelo SCOR (Supply Chain Operations Reference) é usado para:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 204,
+    "fields": { "question": 61, "text": "Desenvolver sistemas de controle de estoque automatizados.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 205,
+    "fields": { "question": 61, "text": "Padronizar processos, medir desempenho e melhorar a cadeia de suprimentos.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 206,
+    "fields": { "question": 61, "text": "Definir custos de transporte internacionais.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 207,
+    "fields": { "question": 61, "text": "Planejar a capacidade produtiva das fábricas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 62,
+    "fields": {
+      "quiz": 1,
+      "text": "No planejamento de frota, o conceito de 'Deadhead' refere-se a:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 208,
+    "fields": { "question": 62, "text": "Viagens realizadas com carga máxima.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 209,
+    "fields": { "question": 62, "text": "Deslocamentos de veículos sem carga, o que representa custo e ineficiência.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 210,
+    "fields": { "question": 62, "text": "Tempo gasto em manutenção preventiva.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 211,
+    "fields": { "question": 62, "text": "Capacidade máxima permitida em veículos pesados.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 63,
+    "fields": {
+      "quiz": 1,
+      "text": "Em redes logísticas, a abordagem de 'dual sourcing' visa:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 212,
+    "fields": { "question": 63, "text": "Utilizar dois modais para uma mesma rota para reduzir custos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 213,
+    "fields": { "question": 63, "text": "Ter dois fornecedores para o mesmo item para mitigar riscos de abastecimento.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 214,
+    "fields": { "question": 63, "text": "Utilizar dois centros de distribuição na mesma região.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 215,
+    "fields": { "question": 63, "text": "Dividir o transporte entre dois veículos para agilizar a entrega.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 64,
+    "fields": {
+      "quiz": 1,
+      "text": "A técnica de 'Lean Logistics' busca:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 216,
+    "fields": { "question": 64, "text": "Aumentar os níveis de estoque para evitar rupturas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 217,
+    "fields": { "question": 64, "text": "Eliminar desperdícios e otimizar processos logísticos para maior eficiência.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 218,
+    "fields": { "question": 64, "text": "Centralizar a armazenagem em grandes centros.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 219,
+    "fields": { "question": 64, "text": "Priorizar transporte aéreo para reduzir tempo de entrega.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 65,
+    "fields": {
+      "quiz": 1,
+      "text": "No cálculo do 'Total Cost of Ownership' (TCO) para transporte, deve-se considerar:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 220,
+    "fields": { "question": 65, "text": "Apenas o custo do frete e combustível.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 221,
+    "fields": { "question": 65, "text": "Custos diretos, indiretos, riscos, manutenção, e depreciação dos veículos.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 222,
+    "fields": { "question": 65, "text": "Somente custos fixos do contrato de transporte.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 223,
+    "fields": { "question": 65, "text": "Custos administrativos da área de logística.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 66,
+    "fields": {
+      "quiz": 1,
+      "text": "O 'Cross Docking' é especialmente eficiente quando:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 224,
+    "fields": { "question": 66, "text": "A demanda dos clientes é altamente variável e imprevisível.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 225,
+    "fields": { "question": 66, "text": "Os produtos são perecíveis ou com alta rotatividade.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 226,
+    "fields": { "question": 66, "text": "O estoque deve ser armazenado por longos períodos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 227,
+    "fields": { "question": 66, "text": "A empresa possui poucos fornecedores.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 67,
+    "fields": {
+      "quiz": 1,
+      "text": "Na modelagem de rotas, a heurística de Clarke-Wright é usada para:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 228,
+    "fields": { "question": 67, "text": "Otimizar rotas de veículos de forma rápida, aproximando soluções do problema VRP.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 229,
+    "fields": { "question": 67, "text": "Calcular o custo fixo de manutenção da frota.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 230,
+    "fields": { "question": 67, "text": "Determinar os estoques mínimos necessários para atendimento.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 231,
+    "fields": { "question": 67, "text": "Prever demandas futuras com base em histórico", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 68,
+    "fields": {
+      "quiz": 1,
+      "text": "O indicador OTIF (On Time In Full) mede:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 232,
+    "fields": { "question": 68, "text": "A eficiência do estoque em relação à validade dos produtos.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 233,
+    "fields": { "question": 68, "text": "O percentual de pedidos entregues no prazo e com a quantidade correta.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 234,
+    "fields": { "question": 68, "text": "O custo de transporte por quilômetro rodado.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 235,
+    "fields": { "question": 68, "text": "A taxa de avarias nas entregas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 69,
+    "fields": {
+      "quiz": 1,
+      "text": "“O SKU é a sigla para Stock Keeping Unit ou Unidade Armazenada em Estoque, que é uma unidade de identificação dos itens do estoque\".",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 236,
+    "fields": { "question": 69, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 237,
+    "fields": { "question": 69, "text": "Falso", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 70,
+    "fields": {
+      "quiz": 1,
+      "text": "Em análise de transportes, a 'curva ABC' é aplicada para:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 238,
+    "fields": { "question": 70, "text": "Classificar modais com base na capacidade.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 239,
+    "fields": { "question": 70, "text": "Priorizar rotas conforme custo e volume de cargas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 240,
+    "fields": { "question": 70, "text": "Analisar itens de carga conforme valor, frequência e criticidade.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 241,
+    "fields": { "question": 70, "text": "Organizar entregas por ordem alfabética dos clientes.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 71,
+    "fields": {
+      "quiz": 1,
+      "text": "“A logística 5PL (Five-Party Logistics) se baseia em um provedor que gerencia toda a cadeia logística de uma empresa, com foco estratégico e integração de tecnologias avançadas”.",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 242,
+    "fields": { "question": 71, "text": "Verdadeiro", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 243,
+    "fields": { "question": 71, "text": "Falso", "is_correct": true }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 72,
+    "fields": {
+      "quiz": 1,
+      "text": "Em logística, o termo 'Milk Run' refere-se a:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 244,
+    "fields": { "question": 72, "text": "Uma rota onde o veículo passa por vários fornecedores para coletar pequenas quantidades.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 245,
+    "fields": { "question": 72, "text": "Uma entrega expressa por via aérea.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 246,
+    "fields": { "question": 72, "text": "Armazenagem de produtos perecíveis em temperatura controlada.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 247,
+    "fields": { "question": 72, "text": "Transporte de cargas líquidas específicas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 73,
+    "fields": {
+      "quiz": 1,
+      "text": "No planejamento da cadeia de suprimentos, o conceito de 'Push vs Pull' indica:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 248,
+    "fields": { "question": 73, "text": "Estratégias onde o estoque é gerado antecipadamente (push) ou sob demanda (pull).", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 249,
+    "fields": { "question": 73, "text": "Modais que empurram a carga e os que puxam a carga.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 250,
+    "fields": { "question": 73, "text": "Sistemas automatizados versus manuais.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 251,
+    "fields": { "question": 73, "text": "Previsão de demanda baseada em histórico ou em pedidos reais", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 74,
+    "fields": {
+      "quiz": 1,
+      "text": "O 'Lead Time' total em logística inclui:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 252,
+    "fields": { "question": 74, "text": "Apenas o tempo de transporte.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 253,
+    "fields": { "question": 74, "text": "Tempo de processamento, transporte, armazenagem e entrega.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 254,
+    "fields": { "question": 74, "text": "Somente o tempo de fabricação.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 255,
+    "fields": { "question": 74, "text": "Tempo de espera em docas apenas.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 75,
+    "fields": {
+      "quiz": 1,
+      "text": "Em transporte rodoviário, o 'Weight Break' é:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 256,
+    "fields": { "question": 75, "text": "O ponto em que o peso da carga altera a tarifa cobrada.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 257,
+    "fields": { "question": 75, "text": "O limite de peso legal por eixo do caminhão.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 258,
+    "fields": { "question": 75, "text": "A pausa obrigatória para descanso do motorista.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 259,
+    "fields": { "question": 75, "text": "O tipo de carga que necessita transporte especial.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 76,
+    "fields": {
+      "quiz": 1,
+      "text": "O conceito de 'Frete Prepaid' significa que:",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 260,
+    "fields": { "question": 76, "text": "O comprador paga o frete na entrega.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 261,
+    "fields": { "question": 76, "text": "O vendedor paga o frete antes do embarque da mercadoria.", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 262,
+    "fields": { "question": 76, "text": "O frete é pago pelo transportador.", "is_correct": false }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 263,
+    "fields": { "question": 76, "text": "O frete é dividido entre vendedor e comprador.", "is_correct": false }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 77,
+    "fields": {
+      "quiz": 1,
+      "text": "“TKU é uma sigla para Tonelada Quilômetro Útil, que é uma medida de produtividade do transporte que leva em conta o peso da carga e a distância percorrida\".",
+      "nivel": "D"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 264,
+    "fields": { "question": 77, "text": "Verdadeiro", "is_correct": true }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 265,
+    "fields": { "question": 77, "text": "Falso", "is_correct": false }
+  }
+]
