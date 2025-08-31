@@ -118,8 +118,8 @@ export default function Quiz() {
     setAnsweredQuestions(new Set());
     
     // Definir tempo limite se existir
-    if (quizInfo && quizData[0]?.fields?.time_limit) {
-      setTimeLeft(quizData[0].fields.time_limit);
+    if (quizInfo && (quizData as QuizItem[])[0]?.fields?.time_limit) {
+      setTimeLeft((quizData as QuizItem[])[0].fields.time_limit || null);
     }
   };
 
@@ -137,8 +137,8 @@ export default function Quiz() {
     setAnsweredQuestions(new Set());
     
     // Definir tempo limite se existir
-    if (quizInfo && quizData[0]?.fields?.time_limit) {
-      setTimeLeft(quizData[0].fields.time_limit);
+    if (quizInfo && (quizData as QuizItem[])[0]?.fields?.time_limit) {
+      setTimeLeft((quizData as QuizItem[])[0].fields.time_limit || null);
     }
   };
 
@@ -348,12 +348,12 @@ export default function Quiz() {
                     <p className="text-blue-600 font-bold">{quizInfo.nivel}</p>
                   </div>
                 </div>
-                {quizData[0]?.fields?.time_limit && (
+                {(quizData as QuizItem[])[0]?.fields?.time_limit && (
                   <div className="flex items-center space-x-3">
                     <span className="text-2xl">⏰</span>
                     <div>
                       <p className="font-semibold text-gray-800">Tempo limite</p>
-                      <p className="text-blue-600 font-bold">{formatTime(quizData[0].fields.time_limit)}</p>
+                      <p className="text-blue-600 font-bold">{formatTime(((quizData as QuizItem[])[0].fields.time_limit) || 0)}</p>
                     </div>
                   </div>
                 )}
